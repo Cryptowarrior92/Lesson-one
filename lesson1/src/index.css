@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.title {
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+}
+.background {
+  background-color: black;
+}
+
+.box {
+  display: inline-block;
+  margin-left: 50px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  height: 230px;
+  width: 200px;
+  border-style: solid;
+  background-color: rgb(253, 253, 253);
+  box-shadow: 10px 10px 20px 0 grey;
+  border-radius: 10px;
+}
+
+.box2 {
+  margin: 50px 50px 50px 50px;
+}
+
+.data-field {
+  /* border: solid; */
+  display: flex;
+  gap: 0.2rem;
+  margin-bottom: 1rem;
+}
+
+.numpad {
+  margin: 10px;
+  width: 5rem;
+  /* justify-content: center;
+  align-items: center; */
+}
+
+button {
+  background-color: white;
+  margin-right: 2px;
+}
+
+buttonbutton {
+  align-items: center;
+}
+/* CSS for a table copied from ChatGPT */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: #333;
+}
+
+.btn {
+  background-color: #830000;
+  color: #333;
+  font-size: 2rem;
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: center;
+  background-color: #ffd49cfff;
+  text-align: left;
+}
+
+th {
+  background-color: #830000;
+  color: white;
+  text-align: left;
+}
+
+tr:nth-child(even) td {
+  background-color: #f2f2f2;
+}
+
+tr:hover td {
+  background-color: #e6e6e6;
+}
+
+.caption {
+  font-size: 8x;
+  text-align: center;
+  margin-bottom: 16px;
+  font-style: italic;
+  margin-top: 10px;
+}
+
+.box3 {
+  margin: 30px;
+}

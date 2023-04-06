@@ -77,10 +77,10 @@ table {
 
 th,
 td {
-  border: 1px solid #ccc;
-  padding: 8px;
+  border: 2px solid #ccc;
+  padding: 9px;
   text-align: center;
-  background-color: #ffd49cfff;
+  background-color: #ffd49cff;
   text-align: left;
 }
 

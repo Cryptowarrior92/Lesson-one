@@ -13,7 +13,7 @@ const Conditional = () => {
   return (
     <div>
       {name == "moshood" ? <p>this is moshood</p> : <p>This is john</p>}
-      {/* {name == "moshood" && <p>This is moshood</p>} */}
+      {name == "moshood" && <p>This is moshood</p>}
     </div>
   );
 };

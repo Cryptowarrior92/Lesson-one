@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 const Form = () => {
-  const [name, setName] = useState("");
+  const [name, setName] = useState(m);
   const [age, setAge] = useState("");
   const [location, setLocation] = useState("");
 
@@ -12,7 +12,7 @@ const Form = () => {
   return (
     <div>
       <form onSubmit={handleSubmit}>
-        <input onChange={(e) => setName(e.target.value)} placeholder="Name" />
+        <input onChange={(e) => setName(e.target.value)} placeholder="Name" m />
         <input
           onChange={(e) => setAge(e.target.value)}
           type="number"
